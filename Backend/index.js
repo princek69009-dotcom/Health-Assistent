@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 // middleware
 app.use(express.json());
 app.use(cors({
-  origin: "http://localhost:5173", // allow only frontend
+  origin: "https://health-assistent-21bi.vercel.app", // allow only frontend
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"],
 }));
