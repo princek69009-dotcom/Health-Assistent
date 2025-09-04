@@ -10,7 +10,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "https://health-assistent-uwfm.vercel.app",
+        target: "https://health-assistent-uwfm.vercel.app/",
         changeOrigin: true
       }
     }
